@@ -2,7 +2,7 @@ README
 --------------------------
 (1) Folder "Images" contains 5500 frontal, unoccluded faces aged from 15 to 60 with neutral expression. It can be divided into four subsets with different races and gender, including 2000 Asian females, 2000 Asian males, 750 Caucasian females and 750 Caucasian males.
 
-(2) Sheet¡°All_Ratings.xlsx¡±includes the ratings of 60 volunteers. All the images are labeled with beauty scores ranging from [1, 5] by totally 60 volunteers. "original Rating" representa the previous rating of some raters who was randomly equired to rate some of the images again.
+(2) SheetÂ¡Â°All_Ratings.xlsxÂ¡Â±includes the ratings of 60 volunteers. All the images are labeled with beauty scores ranging from [1, 5] by totally 60 volunteers. "original Rating" representa the previous rating of some raters who was randomly equired to rate some of the images again.
 
 (3) Folder "train_test_files" contains the training and testing files. There are two kinds of validation ways, including: 1)5-folds cross validations (for each validation, 80% samples are used for training and the rest for testing); 2)the split of 60% training and 40% testing (60% samples are used for training and the rest for testing). 
 
@@ -19,5 +19,4 @@ jurnal    = {ICPR},
 year      = {2018}
 }
 
-(7) For any questions about this database, please contact the authors by sending email to lianwen.jin@gmail.com and lianglysky@gmail.com
-
+(7) This project compares 2 architectures for facial beauty evaludation based on SCUT-FBP5500 dataset: traditional Convolutional Neural Networks along with a novel approach: transfer learning with Vision Transformer fine-tuned on this task. The results can be found in ISODS-Facial Beauty Evaluation pdf file. This repo also adopts another pdf file written by the author for Object Detection in Videos

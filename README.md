@@ -51,7 +51,7 @@ The data has been preprocessed; however, due to copyright reasons from the team,
 
 
 # CONTACT
-- Should you have any questions during running this repo, please contact me via the email above.
+- Should you have any questions for this repo, please contact me via the email above.
 
 
 
